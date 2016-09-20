@@ -11,11 +11,11 @@ var Modal = React.createClass({
 					<Input
 						id="name"
 						type="text"
-						placeholder="Jack-Edward Oliver" />
+						placeholder="name" />
 					<Input
 						id="username"
 						type="email"
-						placeholder="mrjackolai@gmail.com" />
+						placeholder="email" />
 					<Input
 						id="password"
 						type="password"
