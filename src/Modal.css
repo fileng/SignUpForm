@@ -30,6 +30,10 @@ button p {
 button:hover {
   transform: scale(1.02);
 }
+.fa {
+	position: relative;
+	top: 2px;
+}
 button:active {
   transform: scale(0.99);
 }

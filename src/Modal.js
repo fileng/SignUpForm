@@ -3,18 +3,6 @@ import Input from './Input';
 import './Modal.css';
 
 var Modal = React.createClass({
-
-	getInitialState: function () {
-		return { email: '' }
-	},
-
-	handleChange: function (e) {
-		this.setState({
-			email: e.target.value
-		})
-		console.log('bajs');
-	},
-
 	render: function() {
 		return (
 			<div className="Modal">
@@ -28,14 +16,14 @@ var Modal = React.createClass({
 					<Input
 						id="username"
 						type="email"
-						placeholder="email"
-						onChange={this.handleChange} />
+						placeholder="email" />
 					<Input
 						id="password"
 						type="password"
 						placeholder="password" />
 					<button>
-						<p>Log in</p> 
+						<p>Log in</p>
+						<i className="fa fa-chevron-right"></i> 
 					</button>
 				</form>
 			</div>

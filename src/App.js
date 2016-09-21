@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Modal from './Modal';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+import 'font-awesome/css/font-awesome.css';
 
 var App = React.createClass({
 	
