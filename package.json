@@ -6,6 +6,13 @@
     "react-scripts": "0.4.1"
   },
   "dependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.5.0",
+    "eslint-plugin-flowtype": "^2.19.0",
+    "eslint-plugin-react": "^6.3.0",
+    "eslint-config-airbnb": "^11.1.0",
+    "eslint-plugin-import": "^1.15.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
     "font-awesome": "^4.6.3",
     "react": "^15.3.1",
     "react-dom": "^15.3.1"
